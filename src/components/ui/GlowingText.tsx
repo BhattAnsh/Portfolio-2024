@@ -1,4 +1,3 @@
-import React from "react";
 import "./Glow.css"
 import { PropsWithChildren } from "react";
 
