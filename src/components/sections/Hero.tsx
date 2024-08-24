@@ -1,9 +1,7 @@
-import React from 'react'
 import GlowingText from '../ui/GlowingText'
 import HeroFrame from '../ui/HeroFrame'
-type Props = {}
 
-function Hero({ }: Props) {
+function Hero() {
   return (
     <section className="relative z-10 flex h-[100vh] w-full justify-center items-center">
       <HeroFrame>

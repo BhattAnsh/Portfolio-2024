@@ -1,10 +1,7 @@
-import React from "react";
 import ProjectFrame from "../ui/ProjectFrame";
 import projects from "../../Projects.json";
 
-type Props = {};
-
-function Projects({}: Props) {
+function Projects() {
   return (
     <>
       <div>

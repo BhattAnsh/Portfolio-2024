@@ -1,4 +1,3 @@
-import React from "react";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";

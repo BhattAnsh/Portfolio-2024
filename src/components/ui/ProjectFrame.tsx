@@ -1,4 +1,3 @@
-import React from 'react';
 import GlowingText from './GlowingText';
 import { SiGithub } from 'react-icons/si';
 import { CgWebsite } from 'react-icons/cg';

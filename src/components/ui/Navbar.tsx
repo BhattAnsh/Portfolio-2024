@@ -1,8 +1,6 @@
-    import React from 'react'
-    import GlowingText from './GlowingText'
-    type Props = {}
+      import GlowingText from './GlowingText'
 
-    function Navbar({}: Props) {
+    function Navbar() {
     return (
         <nav className="flex justify-center p-4 items-center w-[100vw] fixed z-50 bg-[transparent] ">
         <div className="flex space-x-4 justify-center items-center p-4 bg-bg-glass rounded-[100px] px-10 text-[#dbdbdb]">

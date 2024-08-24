@@ -4,6 +4,7 @@ const Blur = () => {
     const [scrollOpacity, setScrollOpacity] = useState(1);
 
     const handleScroll = () => {
+        console.log(scrollOpacity)
         const scrollY = window.scrollY;
         const windowHeight = window.innerHeight;
         const bodyHeight = document.body.clientHeight;
