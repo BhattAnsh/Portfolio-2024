@@ -11,10 +11,10 @@ function Hero() {
           </div>
           <div className='flex flex-col items-center justify-center w-full'>
             <div className='flex justify-start w-[70%]'>
-              <GlowingText className='text-8xl font-bold flex gap-3'>Your<p className='handwritting'>Vision</p></GlowingText>
+              <GlowingText className='lg:text-8xl md:text-7xl font-bold flex gap-3'>Your<p className='handwritting'>Vision</p></GlowingText>
             </div>
             <div className='flex justify-end w-[70%]'>
-              <GlowingText className='text-8xl font-bold flex gap-3'>My<p className='handwritting'>Code</p></GlowingText>
+              <GlowingText className='lg:text-8xl md:text-7xl font-bold flex gap-3'>My<p className='handwritting'>Code</p></GlowingText>
             </div>
           </div>
           <div className='flex justify-center w-full'>

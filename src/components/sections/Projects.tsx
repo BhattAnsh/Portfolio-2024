@@ -11,7 +11,7 @@ function Projects() {
             className="k"
             title={project.title}
             image={project.image}
-            role={project.role} // Changed this to use project.role instead of project.title
+            role={project.role}
             theme={project.theme}
           />
         ))}

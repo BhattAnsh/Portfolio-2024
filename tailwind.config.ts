@@ -30,6 +30,11 @@ export default {
         },
       },
     },
+
   },
+  safelist:[
+    'from-[#C93301]',
+    'from-[#3803A6]',
+  ],
   plugins: [],
 }
