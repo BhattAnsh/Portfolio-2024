@@ -1,23 +1,30 @@
 import React from 'react'
-import { ShootingStars } from '../ui/shooting-stars'
-import { StarsBackground } from '../ui/stars-background'
-import { Spotlight } from '../ui/backgrounds/spotlight'
-
+import GlowingText from '../ui/GlowingText'
+import HeroFrame from '../ui/HeroFrame'
 type Props = {}
 
 function Hero({ }: Props) {
   return (
-    <div className="relative z-10 flex h-[100vh] w-full justify-center">
-      {/* <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="white"
-      /> */}
-      <h2 className="relative flex-col md:flex-row z-10 text-3xl md:text-5xl md:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white flex items-center gap-2 md:gap-8">
-        <h1>Hey, I am Ansh Bhatt</h1>
-      </h2>
-      <ShootingStars></ShootingStars>
-      <StarsBackground></StarsBackground>
-    </div>
+    <section className="relative z-10 flex h-[100vh] w-full justify-center items-center">
+      <HeroFrame>
+        <div className='flex flex-col justify-between h-full w-full p-10'>
+          <div>
+            <GlowingText className='text-2xl'>&#60;&#47;Ansh Bhatt&#62;</GlowingText>
+          </div>
+          <div className='flex flex-col items-center justify-center w-full'>
+            <div className='flex justify-start w-[70%]'>
+              <GlowingText className='text-8xl font-bold flex gap-3'>Your<p className='handwritting'>Vision</p></GlowingText>
+            </div>
+            <div className='flex justify-end w-[70%]'>
+              <GlowingText className='text-8xl font-bold flex gap-3'>My<p className='handwritting'>Code</p></GlowingText>
+            </div>
+          </div>
+          <div className='flex justify-center w-full'>
+              <GlowingText className='material-icons text-white text-5xl'>arrow_downward</GlowingText>
+          </div>
+        </div>
+      </HeroFrame>
+    </section>
   )
 }
 

@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bg-dark': '#0e1016',
+        'bg-dark': '#1F1E1E',
+        'bg-glass': 'rgba(255, 255, 255, 0.2)',
       },
       linearGradients: {
         'bg-top': ['180deg', '#0e1016 0%', 'transparent 50%'],

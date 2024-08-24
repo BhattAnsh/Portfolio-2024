@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Money Mantra",
+      "role": "Role: Frontend Developer",
+      "link": "https://example.com/project-one",
+      "image": "./MoneyMantra.png",
+      "theme":"#C93301"
+    },
+    {
+      "title": "SaaS Landing Page",
+      "role": "Role: Frontend Developer",
+      "link": "https://example.com/project-two",
+      "image": "./SaaSLanding.png",
+      "theme":"#fffff"
+    }
+  ]
