@@ -12,7 +12,7 @@ function App() {
         <Blur />
         <Color />
         <Navbar />
-        <svg width="full" height="full"  viewBox="0 0 1198 1230.5" fill="none" xmlns="http://www.w3.org/2000/svg" className="fixed z-50 md:top-[-48vh] lg:top-[-450px] left-0 right-0 bottom-0 w-[100vw] h-[100vh] pointer-events-none">
+        <svg width="full" height="full"  viewBox="0 0 1198 1230.5" fill="none" xmlns="http://www.w3.org/2000/svg" className="fixed z-50 top-[-70vh] sm:top-[-48vh] md:top-[-48vh] lg:top-[-450px] left-[-21vw] sm:left-0 right-0 bottom-0 w-[150vw] h-[150vh] md:w-[100vw] md:h-[100vh] pointer-events-none">
           <g filter="url(#filter0_df_856_132)">
             <path d="M796 579.696C796 718.428 730.722 828.5 588.237 828.5C445.753 828.5 402 755.732 402 617C402 478.268 445.753 402 588.237 402C730.722 402 796 440.964 796 579.696Z" 
                 fill="white" fill-opacity="0.4" shape-rendering="auto"/>
@@ -36,7 +36,7 @@ function App() {
             >
           <Hero></Hero>
           <div>
-            <GlowingText className='text-8xl font-bold'>Projects</GlowingText>
+            <GlowingText className='text-5xl sm:text-8xl font-bold'>Projects</GlowingText>
           </div>
           <br />
           <br />
