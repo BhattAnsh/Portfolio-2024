@@ -1,8 +1,10 @@
 export function About() {
   return (
-    <div className="w-full flex flex-col gap-10">
-      <h1 className="block md:hidden text-5xl text-neutral-500 font-bold w-[500px]">Code, Coffee and Creativity</h1>
-      <div className="flex flex-row justify-center items-center text-xl text-white w-[75vw] lg:w-[30vw]">
+    <div className="w-full justify-center items-center flex flex-col gap-10">
+      <div className="heading text-center md:text-start block text-8xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+        ABOUT ME
+      </div>
+      <div className="flex flex-row text-center md:text-start justify-center items-center text-2xl text-white w-[90vw] lg:w-[60vw]">
         Hi, I’m Ansh Bhatt, a full-stack developer and system design architect
         with a passion for creating impactful digital solutions. With a strong
         foundation in computer science from AKTU University, I specialize in

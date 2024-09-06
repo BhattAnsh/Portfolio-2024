@@ -5,7 +5,7 @@ import Navbar from "./components/ui/Navbar";
 import Work from "./components/pages/Work";
 import { About } from "./components/pages/About";
 import { BrowserRouter } from "react-router-dom";
-import Contact from "./components/sections/Contact";
+import { Contact } from "./components/sections/Contact";
 import { Timeline } from "./components/animations/Timeline";
 import Hero from "./components/sections/Hero";
 import Git from "./components/pages/Git";
@@ -29,12 +29,6 @@ function App() {
         <Git/>
       ),
     },
-    {
-      title:"Contacts",
-      content:(
-        <Contact/>
-      ),
-    }
   ];
   return (
     <>
@@ -103,7 +97,10 @@ function App() {
         <main className="flex flex-col items-center justify-between bg-[#1F1E1E]">
           <hr className="w-full bg-gradient-to-l from-[#1F1E1E] via-[white] to-[#1F1E1E]" />
           <Hero></Hero>
-          <Timeline data={data}/>
+          <About/>
+          <Work/>
+          <Git/>
+          <Contact/>
         </main>
       </BrowserRouter>
     </>
