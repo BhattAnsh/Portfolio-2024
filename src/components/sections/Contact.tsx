@@ -3,54 +3,27 @@ import { FloatingDock } from "../../components/ui/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
+  IconBrandLinkedin,
+  IconBrandGmail
 } from "@tabler/icons-react";
+import { WordPullUp } from "../animations/WordPullUp";
 
 export function Contact() {
   const links = [
     {
-      title: "Home",
+      title: "LinkedIn",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/ansh-bhatt-py",
     },
 
     {
-      title: "Products",
+      title: "Gmail",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-    {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Aceternity UI",
-      icon: (
-        <img
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: "mailto:anshbhatt140@gmail.com",
     },
 
     {
@@ -58,20 +31,24 @@ export function Contact() {
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://twitter.com/AnshBhatt906",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/BhattAnsh",
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex flex-col items-center justify-center h-[35rem] w-full">
+      <WordPullUp text="CONTACT ME"/>
+      <br />
+      <br />
+      <br />
       <FloatingDock
-        mobileClassName="translate-y-20"
+        mobileClassName=""
         items={links}
       />
     </div>

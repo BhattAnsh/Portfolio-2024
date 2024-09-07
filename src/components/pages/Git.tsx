@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import GitCard from "../ui/GitCard";
+import { WordPullUp } from "../animations/WordPullUp";
 
 type Repo = {
   id: number;
@@ -35,18 +36,21 @@ function Git() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
-      {data.slice(0, 6).map(repo => (
-        <GitCard
-          key={repo.id}
-          repoName={repo.name}
-          repoDescription={repo.description || "No description available"}
-          repoLink={repo.html_url}
-          stargazersCount={repo.stargazers_count}
-          forksCount={repo.forks_count}
-        />
-      ))}
-    </div>
+    <>
+      <WordPullUp text="GITHUB"/>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
+        {data.slice(0, 6).map(repo => (
+          <GitCard
+            key={repo.id}
+            repoName={repo.name}
+            repoDescription={repo.description || "No description available"}
+            repoLink={repo.html_url}
+            stargazersCount={repo.stargazers_count}
+            forksCount={repo.forks_count}
+          />
+        ))}
+      </div>
+    </>
   );
 }
 

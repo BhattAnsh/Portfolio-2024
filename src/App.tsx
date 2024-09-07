@@ -6,30 +6,9 @@ import Work from "./components/pages/Work";
 import { About } from "./components/pages/About";
 import { BrowserRouter } from "react-router-dom";
 import { Contact } from "./components/sections/Contact";
-import { Timeline } from "./components/animations/Timeline";
 import Hero from "./components/sections/Hero";
 import Git from "./components/pages/Git";
 function App() {
-  const data = [
-    {
-      title: "About",
-      content: (
-        <About />
-      ),
-    },
-    {
-      title: "Projects",
-      content: (
-        <Work />
-      ),
-    },
-    {
-      title:"Github",
-      content:(
-        <Git/>
-      ),
-    },
-  ];
   return (
     <>
       <BrowserRouter>
@@ -96,11 +75,21 @@ function App() {
         </svg>
         <main className="flex flex-col items-center justify-between bg-[#1F1E1E]">
           <hr className="w-full bg-gradient-to-l from-[#1F1E1E] via-[white] to-[#1F1E1E]" />
-          <Hero></Hero>
-          <About/>
-          <Work/>
-          <Git/>
-          <Contact/>
+          <section className="h-[fit-content] mb-[200px]">
+            <Hero></Hero>
+          </section>
+          <section className="h-[fit-content] mb-[200px]">
+            <About/>
+          </section>
+          <section className="h-[fit-content] mb-[200px]">
+            <Work/>
+          </section>
+          <section className="h-[fit-content]">
+            <Git/>
+          </section>
+          <section className="h-[fit-content]">
+            <Contact/>
+          </section>
         </main>
       </BrowserRouter>
     </>

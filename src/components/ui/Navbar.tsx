@@ -16,9 +16,8 @@ function Navbar() {
         <img src="./PortfolioLogo.svg" alt="logo" />
       </div> */}
       <div className="flex space-x-4 justify-center items-center p-4 bg-white/10 backdrop-blur-md rounded-[100px] px-8 text-[#dbdbdb]">
-        <GlowingText className="text-lg"><Link to="/">Work</Link></GlowingText>
-        <Link to="/about" className="text-lg">About</Link>
-        <Link to="/git" className="text-lg">Git</Link>
+        <GlowingText className="text-lg"><Link to="/">Portfolio</Link></GlowingText>
+        <Link to="/about" className="text-lg">Resume</Link>
       </div>
       {/* <div className='flex flex-row items-center justify-center p-2 md:p-5 h-full gap-5'>
         <Link className='hidden md:block' to="https://www.linkedin.com">LinkedIn</Link>
