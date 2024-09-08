@@ -4,10 +4,11 @@ import Color from "./components/overlay/Color";
 import Navbar from "./components/ui/Navbar";
 import Work from "./components/pages/Work";
 import { About } from "./components/pages/About";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Contact } from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
 import Git from "./components/pages/Git";
+import Resume from "./components/pages/Resume";
 function App() {
   return (
     <>
@@ -73,6 +74,29 @@ function App() {
             </filter>
           </defs>
         </svg>
+        <Routes>
+          <Route path="/" element = {<main className="flex flex-col items-center justify-between bg-[#1F1E1E]">
+          <hr className="w-full bg-gradient-to-l from-[#1F1E1E] via-[white] to-[#1F1E1E]" />
+          <section className="h-[fit-content] mb-[200px]">
+            <Hero></Hero>
+          </section>
+          <section className="h-[fit-content] mb-[200px]">
+            <About/>
+          </section>
+          <section className="h-[fit-content] mb-[200px]">
+            <Work/>
+          </section>
+          <section className="h-[fit-content]">
+            <Git/>
+          </section>
+          <section className="h-[fit-content]">
+            <Contact/>
+          </section>
+        </main>}></Route>
+        <Route path="/resume" element = {<Resume/>}>
+
+        </Route>
+        </Routes>
         <main className="flex flex-col items-center justify-between bg-[#1F1E1E]">
           <hr className="w-full bg-gradient-to-l from-[#1F1E1E] via-[white] to-[#1F1E1E]" />
           <section className="h-[fit-content] mb-[200px]">
