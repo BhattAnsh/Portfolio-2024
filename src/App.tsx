@@ -91,24 +91,6 @@ function App() {
             <Contact />
           </section>
         </main>
-        <main className="flex flex-col items-center justify-between bg-[#1F1E1E]">
-          <hr className="w-full bg-gradient-to-l from-[#1F1E1E] via-[white] to-[#1F1E1E]" />
-          <section className="h-[fit-content] mb-[200px]">
-            <Hero></Hero>
-          </section>
-          <section className="h-[fit-content] mb-[200px]">
-            <About />
-          </section>
-          <section className="h-[fit-content] mb-[200px]">
-            <Work />
-          </section>
-          <section className="h-[fit-content]">
-            <Git />
-          </section>
-          <section className="h-[fit-content]">
-            <Contact />
-          </section>
-        </main>
       </BrowserRouter>
     </>
   );
