@@ -40,6 +40,7 @@ export default {
     'from-[#3803A6]',
     'from-[#8A39EA]',
     'from-[#3B80F7]',
+    'from-[#FEFFFE]',
   ],
   plugins: [],
 }

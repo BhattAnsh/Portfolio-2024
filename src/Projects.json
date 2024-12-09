@@ -30,5 +30,13 @@
       "image": "./Community.png",
       "website":"https://tech-soc.vercel.app/",
       "theme":"#3B80F7"
+    },
+    {
+      "title": "Social Sellers",
+      "role": "Role: Full Stack Developer",
+      "link": "https://github.com/BhattAnsh/SocialSellers.git",
+      "image": "./SocialSellers.png",
+      "website":"https://social-sellers.vercel.app/",
+      "theme":"#FEFFFE"
     }
   ]
