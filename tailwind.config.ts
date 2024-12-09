@@ -38,6 +38,8 @@ export default {
   safelist:[
     'from-[#C93301]',
     'from-[#3803A6]',
+    'from-[#8A39EA]',
+    'from-[#3B80F7]',
   ],
   plugins: [],
 }

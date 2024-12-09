@@ -3,6 +3,7 @@ import { SiGithub } from 'react-icons/si';
 import { CgWebsite } from 'react-icons/cg';
 import './projectFrame.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 type Props = {
     className: string,
@@ -10,9 +11,11 @@ type Props = {
     title:string,
     role:string,
     image:string,
+    link:string,
+    website:string,
 };
 
-function ProjectFrame({ className, theme, title, role, image }: Props) {
+function ProjectFrame({ className, theme, title, role, image, link, website }: Props) {
     const [isHovering, setIsHovering] = useState(false)
     const handleMouseEnter = () =>{
         setIsHovering(true);
@@ -34,8 +37,8 @@ function ProjectFrame({ className, theme, title, role, image }: Props) {
                             </div>
                         </div>
                         <div className='flex flex-row gap-[20px] px-5'>
-                            <SiGithub className='text-white glow text-2xl sm:text-4xl'/>
-                            <CgWebsite className='text-white glow text-2xl sm:text-4xl'/>
+                            <Link to={link}><SiGithub className='text-white glow text-2xl sm:text-4xl'/></Link>
+                            <Link to={website}><CgWebsite className='text-white glow text-2xl sm:text-4xl'/></Link>
                         </div>      
                     </div>
                     <div className='child project-image flex overflow-hidden items-center justify-center relative top-[4rem] sm:top-[6rem] md:top-[6rem] lg:top-16 sm:px-10 px-5 lg:px-20 transition-all ease-in-out duration-300'>

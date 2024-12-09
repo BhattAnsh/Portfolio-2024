@@ -2,15 +2,33 @@
     {
       "title": "Money Mantra",
       "role": "Role: Frontend Developer",
-      "link": "https://example.com/project-one",
+      "link": "https://github.com/BhattAnsh/Money-Mantra-Frontend.git",
+      "website": "https://money-mantra.vercel.app/",
       "image": "./MoneyMantra.png",
       "theme":"#C93301"
     },
     {
       "title": "SaaS Landing Page",
       "role": "Role: Frontend Developer",
-      "link": "https://example.com/project-two",
+      "link": "https://github.com/BhattAnsh/SaaS-Landing-Page.git",
       "image": "./SaaSLanding.png",
+      "website":"https://chat-gpt-two-coral.vercel.app/",
       "theme":"#3803A6"
+    },
+    {
+      "title": "Eventify",
+      "role": "Role: Full Stack Developer",
+      "link": "https://github.com/BhattAnsh/Eventify.git",
+      "image": "./Eventify.png",
+      "website":"https://eventify-nu.vercel.app/",
+      "theme":"#8A39EA"
+    },
+    {
+      "title": "Community Website",
+      "role": "Role: Full Stack Developer",
+      "link": "https://github.com/BhattAnsh/Tech-Soc.git",
+      "image": "./Community.png",
+      "website":"https://tech-soc.vercel.app/",
+      "theme":"#3B80F7"
     }
   ]

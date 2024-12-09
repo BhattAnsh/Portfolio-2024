@@ -13,6 +13,8 @@ function Projects() {
             image={project.image}
             role={project.role}
             theme={project.theme}
+            link={project.link}
+            website={project.website}
           />
         ))}
       </div>
