@@ -16,7 +16,7 @@ const projectStructure: Record<string, FileItem[]> = {
       name: 'Source Code',
       type: 'folder',
       children: [
-        { name: 'src.zip', type: 'file', size: '2.4 MB', downloadUrl: '/files/legacy-project1/src.zip' }
+        { name: 'src.zip', type: 'file', size: '2.4 MB', downloadUrl: '' }
       ]
     },
     {
@@ -28,7 +28,13 @@ const projectStructure: Record<string, FileItem[]> = {
     }
   ],
   'legacy-project2': [
-    // Similar structure for project 2
+    {
+      name: 'Source Code',
+      type: 'folder',
+      children: [
+        { name: '5622.rar', type: 'file', size: '2.4 MB', downloadUrl: '/projects/5622.rar' }
+      ]
+    },
   ],
   'legacy-project3': [
     // Similar structure for project 3

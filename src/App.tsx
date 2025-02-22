@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Contact } from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
 import Git from "./components/pages/Git";
-import Projects from "./components/pages/Projects";
 
 function App() {
   return (
@@ -98,9 +97,7 @@ function App() {
                 </section>
               </main>
             </>
-          }
-        />
-        <Route path="/projects" element={<Projects />} />
+          }/>
       </Routes>
     </BrowserRouter>
   );
